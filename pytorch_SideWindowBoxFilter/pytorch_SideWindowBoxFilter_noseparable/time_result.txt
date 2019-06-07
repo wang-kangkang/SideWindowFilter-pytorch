@@ -1,0 +1,9 @@
+该代码在linux机器上实测(图像大小512*512*3，卷积核半径6，迭代次数30次)：
+matlab版本：R2016b (9.1.0.441655) 64-bit (glnxa64)
+CPU：Intel(R) Xeon(R) CPU E5-2620 v2 @ 2.10GHz
+matlab版本SideWindowBoxFilter耗时：6s左右
+
+python版本：Python 3.6.3
+pytorch版本：1.0.0
+GPU型号：k40
+pytorch Cuda版本SideWindowBoxFilter平均耗时：1.3s左右。
